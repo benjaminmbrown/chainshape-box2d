@@ -1,0 +1,33 @@
+{
+  "name": "box2d-html5",
+  "version": "0.1.230",
+  "description": "A 2D Physics Engine for HTML5 Games",
+  "keywords": [
+    "box2d",
+    "html5",
+    "game",
+    "physics",
+    "engine"
+  ],
+  "main": "package/box2d-html5.js",
+  "ignore": [
+    "*",
+    "!package/box2d-html5.js",
+    "!README"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mvasilkov/box2d-html5.git"
+  },
+  "homepage": "https://github.com/mvasilkov/box2d-html5",
+  "_release": "0.1.230",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.1.230",
+    "commit": "83adf2817c03ff0f93b6617bb03e7eac0b9e6835"
+  },
+  "_source": "https://github.com/mvasilkov/box2d-html5.git",
+  "_target": "^0.1.230",
+  "_originalSource": "box2d-html5",
+  "_direct": true
+}

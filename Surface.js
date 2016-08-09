@@ -5,7 +5,7 @@ var Surface = function(){
 	this.surface.push(new box2d.b2Vec2(width/2,height/2+50));
 	this.surface.push(new box2d.b2Vec2(width,height/2));
 
-	for(var i = 0; i<this.surface.length: i++){
+	for(var i = 0; i<this.surface.length; i++){
 		this.surface[i] = scaleToWorld(this.surface[i]);
 	}
 
@@ -15,7 +15,7 @@ var Surface = function(){
 	var bd = new box2d.b2BodyDef();
 	this.body = world.CreateBody(bd);
 
-	var fixture = new box2d.b2FixtureDef*();
+	var fixture = new box2d.b2FixtureDef();
 	fixture.shape = chain;
 
 	fixture.density = 1;
